@@ -1,13 +1,8 @@
 {
     "MyFirstTask": {
-        "recognition": "TemplateMatch",
+        "recognition": "FeatureMatch",
         "template": "test.png",
         "action": "Click",
-        "next": [
-            "MyLastTask"
-        ]
-    },
-    "MyLastTask": {
-        "action": "DoNothing"
+        "timeout": 8000
     }
 }
