@@ -1,0 +1,13 @@
+{
+    "MyFirstTask": {
+        "recognition": "TemplateMatch",
+        "template": "test.png",
+        "action": "Click",
+        "next": [
+            "MyLastTask"
+        ]
+    },
+    "MyLastTask": {
+        "action": "DoNothing"
+    }
+}
