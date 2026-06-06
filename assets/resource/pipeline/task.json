@@ -1,7 +1,7 @@
 {
     "MyFirstTask": {
-        "recognition": "FeatureMatch",
-        "template": "test.png",
+        "recognition": "OCR",
+        "expected": "卡厄思夢境",
         "action": "Click",
         "timeout": 8000
     }
