@@ -37,7 +37,7 @@ def main():
     print(">>> 开始执行任务...")
     
     # 任务名必须和 pipeline/task.json 里的入口名一致
-    job = tasker.post_task("MyFirstTask").wait()
+    job = tasker.post_task("press_icon").wait()
     if job.succeeded:
         print(">>> 任务执行完毕：识别并执行成功。")
     else:

@@ -1,8 +1,19 @@
 {
-    "MyFirstTask": {
+    "press_icon": {
         "recognition": "OCR",
         "expected": "卡厄思夢境",
         "action": "Click",
-        "timeout": 8000
+        "timeout": 45000,
+        "post_wait_freezes": 2000,
+        "post_delay": 300,
+        "next": ["Login"]
+
+    },
+    "Login": {
+        "recognition": "OCR",
+        "expected": "TOUCH TO START",
+        "action": "Click",
+        "timeout": 20000
+
     }
 }
